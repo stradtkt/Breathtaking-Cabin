@@ -1,0 +1,40 @@
+.header h1 {
+  color: #f8f8f8;
+  text-shadow: 1px 1px 5px limegreen, 2px 2px 5px dodgerblue;
+  font-size: 50px;
+  font-weight: 700;
+  padding: 200px 0 0 0;
+  font-family: "Slabo 27px", serif; }
+
+.header .lead {
+  color: #f8f8f8;
+  text-shadow: 1px 1px 3px limegreen, 1px 1px 3px dodgerblue;
+  font-weight: 600;
+  font-family: "Slabo 27px", serif; }
+
+#home-header-section {
+  background: url("./../img/mountain-view-4.jpg") 50% 0 repeat fixed;
+  background-size: cover;
+  min-height: 500px; }
+
+#home-first-section {
+  background: linear-gradient(125deg, rgba(100, 200, 100, 0.5), rgba(100, 100, 200, 0.5));
+  -moz-background: linear-gradient(125deg, rgba(100, 200, 100, 0.5), rgba(100, 100, 200, 0.5));
+  -webkit-background: linear-gradient(125deg, rgba(100, 200, 100, 0.5), rgba(100, 100, 200, 0.5));
+  -ms-background: linear-gradient(125deg, rgba(100, 200, 100, 0.5), rgba(100, 100, 200, 0.5));
+  height: 600px; }
+
+#carouselExampleIndicators {
+  width: 800px;
+  height: 500px;
+  margin: 0 auto; }
+
+.carousel-item {
+  width: 800px;
+  height: 500px;
+  padding: 50px 0 0 0; }
+
+.indicator.active {
+  background: dodgerblue; }
+
+/*# sourceMappingURL=app.css.map */
