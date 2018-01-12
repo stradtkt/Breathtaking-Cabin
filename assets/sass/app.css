@@ -39,4 +39,26 @@ body {
 .indicator.active {
   background: dodgerblue; }
 
+.nav-list {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100px;
+  display: block;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px; }
+
+.nav-list li a {
+  color: white;
+  position: relative;
+  right: 20px; }
+
+.nav-list li a:hover {
+  color: dodgerblue;
+  text-decoration: none;
+  transition: 0.3s ease; }
+
+.nav-list li {
+  padding: 10px 0; }
+
 /*# sourceMappingURL=app.css.map */

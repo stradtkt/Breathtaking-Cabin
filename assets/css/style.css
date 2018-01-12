@@ -1,1 +1,63 @@
 @import url('https://fonts.googleapis.com/css?family=Bellefair|Slabo+27px');
+body {
+  background: linear-gradient(125deg, rgba(100, 200, 100, 0.5), rgba(100, 100, 200, 0.5));
+  -moz-background: linear-gradient(125deg, rgba(100, 200, 100, 0.5), rgba(100, 100, 200, 0.5));
+  -webkit-background: linear-gradient(125deg, rgba(100, 200, 100, 0.5), rgba(100, 100, 200, 0.5));
+  -ms-background: linear-gradient(125deg, rgba(100, 200, 100, 0.5), rgba(100, 100, 200, 0.5)); }
+
+.header h1 {
+  color: #f8f8f8;
+  text-shadow: 1px 1px 5px limegreen, 2px 2px 5px dodgerblue;
+  font-size: 50px;
+  font-weight: 700;
+  padding: 200px 0 0 0;
+  font-family: "Slabo 27px", serif; }
+
+.header .lead {
+  color: #f8f8f8;
+  text-shadow: 1px 1px 3px limegreen, 1px 1px 3px dodgerblue;
+  font-weight: 600;
+  font-family: "Slabo 27px", serif; }
+
+#home-header-section {
+  background: url("./../img/mountain-view-4.jpg") 50% 0 repeat fixed;
+  background-size: cover;
+  min-height: 500px; }
+
+#home-first-section {
+  height: 600px; }
+
+#carouselExampleIndicators {
+  width: 800px;
+  height: 500px;
+  margin: 0 auto; }
+
+.carousel-item {
+  width: 800px;
+  height: 500px;
+  padding: 50px 0 0 0; }
+
+.indicator.active {
+  background: dodgerblue; }
+
+.nav-list {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100px;
+  display: block;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px; }
+
+.nav-list li a {
+  color: white;
+  position: relative;
+  right: 20px; }
+
+.nav-list li a:hover {
+  color: dodgerblue;
+  text-decoration: none;
+  transition: 0.3s ease; }
+
+.nav-list li {
+  padding: 10px 0; }
