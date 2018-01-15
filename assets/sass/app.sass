@@ -32,12 +32,10 @@ body
     font-size: 50px
     font-weight: 700
     padding: 200px 0 0 0
-    font-family: 'Slabo 27px', serif
 .header .lead
     color: #f8f8f8
     text-shadow: 1px 1px 3px limegreen, 1px 1px 3px dodgerblue
     font-weight: 600
-    font-family: 'Slabo 27px', serif
 #home-header-section
     background: url('./../img/mountain-view-4.jpg') 50% 0 repeat fixed
     background-size: cover
@@ -63,9 +61,47 @@ body
     color: white
     position: relative
     right: 20px
+    font-family: 'Macondo', cursive
 .nav-list li a:hover
     color: dodgerblue
     text-decoration: none
     transition: 0.3s ease
 .nav-list li
     padding: 10px 0
+.about-header h1,
+.header h1,
+.header .lead,
+.breath-menu,
+.breath-footer
+    font-family: 'Macondo', cursive
+
+/*About Page*/
+
+.about-header h1
+    padding: 200px 0
+#about-header-section
+    background: url('../img/pic39.jpg') 50% 0 repeat fixed
+    background-size: cover
+    height: 500px
+.about-article-container
+    padding: 70px 0
+    margin: 30px 0
+.about-article-container p
+    font-family: 'Alegreya', serif
+    font-size: 18px
+    width: 80%
+    position: relative
+    left: 75px
+.about-header h1
+    font-size: 55px
+    text-shadow: 1px 1px 4px green, 1px 1px 3px dodgerblue
+    color: #f8f8f8
+    font-weight: 700
+.about-article-container h1
+    font-family: 'Alegreya', serif
+    text-shadow: 1px 1px 4px green, 1px 1px 3px dodgerblue
+    color: #f8f8f8
+    font-weight: 700
+.about-article-container
+    +box-shadow(0px 2px 7px 4px rgba(100,100,100,0.5))
+    +border-radius(4px)
