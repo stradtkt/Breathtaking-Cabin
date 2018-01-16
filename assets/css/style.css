@@ -138,3 +138,33 @@ body {
   -moz-box-shadow: 0px 0px 0px 0px #222;
   -ms-box-shadow: 0px 0px 0px 0px #222;
   box-shadow: 0px 0px 0px 0px #222; }
+
+.breathtaking-contact-form input,
+.breathtaking-contact-form textarea,
+.breathtaking-contact-form textarea[placeholder="Enter your message"]::-webkit-input-placeholder,
+.breathtaking-contact-form input[placeholder="Enter your email"]::-webkit-input-placeholder,
+.breathtaking-contact-form input[placeholder="Enter your name"]::-webkit-input-placeholder {
+  color: #000;
+  font-size: 18px;
+  font-family: "Oswald", sans-serif; }
+
+.breathtaking-contact-form textarea[placeholder="Enter your message"]::-moz-placeholder,
+.breathtaking-contact-form input[placeholder="Enter your email"]::-moz-placeholder,
+.breathtaking-contact-form input[placeholder="Enter your name"]::-moz-placeholder {
+  color: #000;
+  font-size: 18px;
+  font-family: "Oswald", sans-serif; }
+
+.breathtaking-contact-form textarea[placeholder="Enter your message"]:-ms-placeholder,
+.breathtaking-contact-form input[placeholder="Enter your email"]:-ms-placeholder,
+.breathtaking-contact-form input[placeholder="Enter your name"]:-ms-placeholder {
+  color: #000;
+  font-size: 18px;
+  font-family: "Oswald", sans-serif; }
+
+.breathtaking-contact-form textarea[placeholder="Enter your message"]:-moz-placeholder,
+.breathtaking-contact-form input[placeholder="Enter your email"]:-moz-placeholder,
+.breathtaking-contact-form input[placeholder="Enter your name"]:-moz-placeholder {
+  color: #000;
+  font-size: 18px;
+  font-family: "Oswald", sans-serif; }
