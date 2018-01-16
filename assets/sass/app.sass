@@ -68,6 +68,7 @@ body
     transition: 0.3s ease
 .nav-list li
     padding: 10px 0
+.contact-header h1,
 .about-header h1,
 .header h1,
 .header .lead,
@@ -76,9 +77,7 @@ body
     font-family: 'Macondo', cursive
 
 /*About Page*/
-
-.about-header h1
-    padding: 200px 0
+#contact-header-section,
 #about-header-section
     background: url('../img/pic39.jpg') 50% 0 repeat fixed
     background-size: cover
@@ -92,7 +91,9 @@ body
     width: 80%
     position: relative
     left: 75px
+.contact-header h1,
 .about-header h1
+    padding: 200px 0
     font-size: 55px
     text-shadow: 1px 1px 4px green, 1px 1px 3px dodgerblue
     color: #f8f8f8
@@ -105,3 +106,45 @@ body
 .about-article-container
     +box-shadow(0px 2px 7px 4px rgba(100,100,100,0.5))
     +border-radius(4px)
+
+/*Contact Page*/
+.breathtaking-contact-form h3
+    font-family: 'Alegreya', serif
+    padding: 10% 0
+    text-shadow: 1px 1px 4px green, 1px 1px 3px dodgerblue
+    color: #f8f8f8
+    font-weight: 700
+.breathtaking-contact-form
+    padding: 0 0 5% 0
+.breathtaking-contact-form input[type="submit"]
+    +box-shadow(2px 2px 5px 1px rgba(100,100,100,1))
+    +background(linear-gradient(125deg, rgba(100,100,200,1), rgba(100,200,100,1)))
+    color: #f8f8f8
+.breathtaking-contact-form input[type="submit"]:hover
+    +box-shadow(0px 0px 0px 0px #222)
+.breathtaking-contact-form input,
+.breathtaking-contact-form textarea,
+.breathtaking-contact-form textarea[placeholder="Enter your message"]::-webkit-input-placeholder,
+.breathtaking-contact-form input[placeholder="Enter your email"]::-webkit-input-placeholder,
+.breathtaking-contact-form input[placeholder="Enter your name"]::-webkit-input-placeholder
+    color: #000
+    font-size: 18px
+    font-family: 'Oswald', sans-serif
+.breathtaking-contact-form textarea[placeholder="Enter your message"]::-moz-placeholder,
+.breathtaking-contact-form input[placeholder="Enter your email"]::-moz-placeholder,
+.breathtaking-contact-form input[placeholder="Enter your name"]::-moz-placeholder
+    color: #000
+    font-size: 18px
+    font-family: 'Oswald', sans-serif
+.breathtaking-contact-form textarea[placeholder="Enter your message"]:-ms-placeholder,
+.breathtaking-contact-form input[placeholder="Enter your email"]:-ms-placeholder,
+.breathtaking-contact-form input[placeholder="Enter your name"]:-ms-placeholder
+    color: #000
+    font-size: 18px
+    font-family: 'Oswald', sans-serif
+.breathtaking-contact-form textarea[placeholder="Enter your message"]:-moz-placeholder,
+.breathtaking-contact-form input[placeholder="Enter your email"]:-moz-placeholder,
+.breathtaking-contact-form input[placeholder="Enter your name"]:-moz-placeholder
+    color: #000
+    font-size: 18px
+    font-family: 'Oswald', sans-serif
