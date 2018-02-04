@@ -7,5 +7,6 @@
     async defer></script>
 <script src="assets/js/weather/jquery.simpleWeather.js"></script>
 <script src="assets/js/weather.js"></script>
+<!-- <script src="assets/js/calendar/calendar.js"></script> -->
 </body>
 </html>
