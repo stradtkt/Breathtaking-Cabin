@@ -12,9 +12,23 @@ $(document).ready(function() {
       html += '<a class="btn btn-primary day-btn">7 Day Forecast</a>';
       html += '</div>';
       $("#weather").html(html);
+      $('div.seven-day-forecast').css("display", "none");
+      $('.day-btn').click(function(e) {
+        e.preventDefault();
+        for(var i=0;i<weather.forecast.length && i <= 6;i++) {
+        sevenHTML = '<div class="seven-day-forecast">';
+        sevenHTML += '<img class="forecast-img" src="'+weather.forecast[i].image+'">';
+        sevenHTML += '<span class="forecast-date">'+weather.forecast[i].date+'</span><br>';
+        sevenHTML += '<span class="forecast-high">High: '+ weather.forecast[i].high+'</span><br>';
+        sevenHTML += '<span class="forecast-low">Low: '+weather.forecast[i].low+ '</span>';
+        sevenHTML += '</div>';
+        $('#seven-day').html(sevenHTML);
+        }
+      });
     },
     error: function(error) {
       $("#weather").html('<p>'+error+'</p>');
     }
   });
+
 });
