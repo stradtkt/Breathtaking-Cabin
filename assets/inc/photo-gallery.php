@@ -1,7 +1,10 @@
 <section id="home-first-section">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-12">
+          <div class="col-sm-3">
+            <div id="weather"></div>
+          </div>
+            <div class="col-sm-6">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li class="indicator" data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -108,6 +111,9 @@
                     <span class="sr-only">Next</span>
                     </a>
                 </div>
+            </div>
+            <div class="col-sm-3">
+
             </div>
         </div>
     </div>
