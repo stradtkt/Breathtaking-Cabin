@@ -5,7 +5,7 @@
       <ul class="nav-list">
           <li class="list-inline-item"><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
           <li class="list-inline-item"><a href="about.php"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a></li>
-          <li class="list-inline-item"><a href="map.php"><i class="fa fa-map-o" aria-hidden="true"></i> Map</a></li>
+          <li class="list-inline-item"><a href="breath-map.php"><i class="fa fa-map-o" aria-hidden="true"></i> Map</a></li>
           <li class="list-inline-item"><a href="contact.php"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a></li>
       </ul>
     </div>

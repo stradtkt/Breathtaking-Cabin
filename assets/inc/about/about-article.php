@@ -1,9 +1,17 @@
 <section>
     <article class="about-article">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-8">
+                <div class="col-sm-3">
+                  <div class="side-photo">
+                    <img src="assets/img/pic1.jpg" width="100%" class="img-responsive" alt="">
+                    <br/><br/>
+                    <img src="assets/img/pic16.jpg" width="100%" class="img-responsive" alt="">
+                    </br/><br />
+                    <img src="assets/img/pic13.jpg" width="100%" class="img-responsive" alt="">
+                  </div>
+                </div>
+                <div class="col-sm-6">
                     <div class="about-article-container">
                         <h1 class="text-center">About Breathtaking</h1>
                         <p class="text-center">
@@ -16,7 +24,15 @@
                             The first bedroom on the left (main level) has a queen-size log bed with matching nightstands and dresser and a 19 inch flat screen color television. The second bedroom, also located on the main level, has a queen-size bed, a 19 inch flat screen TV and features large picture windows that frame the spectacular view! The large master suite is located upstairs and is luxuriously appointed with a king-size log bed, has vaulted ceilings, a 32 inch flat screen TV, a private bath featuring double sinks and a romantic sitting area overlooking the glorious view. An open loft game room is furnished with a queen sized futon, a foosball table and a number of popular board games. The loft is a great place to gather with family and friends. For more action head downstairs, there you will find another game room complete with a pool table, a 19 inch flat screen TV, poker table top, and plenty of seating. From the lower level, there are French doors leading to another patio with rockers and the hot tub. As an added convenience there is a bathroom and full-size laundry room on this level. Elegantly and tastefully decorated with many thoughtful details, at Breathtaking you will enjoy the experience of the Great Smoky Mountains immersed in luxury and comfort. Wireless high speed Internet access is available at the cabin.
                         </p>
                     </div>
-                    <div class="col-sm-2"></div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="side-photo">
+                    <img src="assets/img/pic25.jpg" width="100%" class="img-responsive" alt="">
+                    <br/><br/>
+                    <img src="assets/img/pic35.jpg" width="100%" class="img-responsive" alt="">
+                    </br/><br />
+                    <img src="assets/img/pic37.jpg" width="100%" class="img-responsive" alt="">
+                  </div>
                 </div>
             </div>
         </div>
