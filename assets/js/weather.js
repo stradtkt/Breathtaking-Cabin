@@ -13,16 +13,16 @@ $(document).ready(function() {
       html += '</div>';
       $("#weather").html(html);
       $('div.seven-day-forecast').css("display", "none");
-      $('.day-btn').click(function(e) {
+      $('.day-btn').click(function(e, i, forecast) {
+        for(var i=0;i<weather.forecast.length && i <=4;i++) {
         e.preventDefault();
-        for(var i=0;i<weather.forecast.length && i <= 6;i++) {
         sevenHTML = '<div class="seven-day-forecast">';
         sevenHTML += '<img class="forecast-img" src="'+weather.forecast[i].image+'">';
         sevenHTML += '<span class="forecast-date">'+weather.forecast[i].date+'</span><br>';
         sevenHTML += '<span class="forecast-high">High: '+ weather.forecast[i].high+'</span><br>';
         sevenHTML += '<span class="forecast-low">Low: '+weather.forecast[i].low+ '</span>';
         sevenHTML += '</div>';
-        $('#seven-day').html(sevenHTML);
+        $('#seven-day').append(sevenHTML);
         }
       });
     },

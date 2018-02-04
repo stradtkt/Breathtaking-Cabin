@@ -89,15 +89,22 @@ body {
   -ms-background: linear-gradient(125deg, #6464c8, #64c864);
   width: 100%;
   padding: 5%;
-  margin: 10% 0; }
+  margin: 10% 0;
+  height: 100%; }
+
+.seven-day-forecast span {
+  text-align: center !important;
+  color: white;
+  position: relative;
+  left: 20%;
+  bottom: 55px !important; }
 
 .seven-day-forecast img {
   text-align: center;
   z-index: 99;
-  display: block; }
-
-#seven-day {
-  height: 1000px; }
+  display: block;
+  position: relative;
+  left: 30%; }
 
 .weather-city {
   padding: 0 5px;
@@ -129,7 +136,9 @@ a.day-btn {
   display: block; }
 
 .forecast-img {
-  margin: 0 auto; }
+  margin: 0 auto;
+  height: 60px;
+  width: 60px; }
 
 /*About Page */
 #map-header-section,
