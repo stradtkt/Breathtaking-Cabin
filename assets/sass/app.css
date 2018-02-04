@@ -1,5 +1,5 @@
 html, body {
-  height: 100%;
+  overflow-x: hidden;
   margin: 0;
   padding: 0; }
 
@@ -186,6 +186,13 @@ body {
   color: #000;
   font-size: 18px;
   font-family: "Oswald", sans-serif; }
+
+input,
+textarea {
+  -webkit-box-shadow: 1px 1px 10px #222;
+  -moz-box-shadow: 1px 1px 10px #222;
+  -ms-box-shadow: 1px 1px 10px #222;
+  box-shadow: 1px 1px 10px #222; }
 
 /*MAP PAGE */
 #map {
