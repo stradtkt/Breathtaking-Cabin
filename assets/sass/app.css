@@ -141,6 +141,7 @@ a.day-btn {
   width: 60px; }
 
 /*About Page */
+#calendar-header-section,
 #map-header-section,
 #contact-header-section,
 #about-header-section {
@@ -261,6 +262,10 @@ textarea {
   -ms-box-shadow: 1px 1px 10px #222;
   box-shadow: 1px 1px 10px #222; }
 
+.contact-side {
+  position: relative;
+  top: 30%; }
+
 /*MAP PAGE */
 #map {
   position: relative;
@@ -272,5 +277,9 @@ textarea {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px; }
+
+/*Calendar Page */
+#breath-calendar {
+  margin: 5% 0; }
 
 /*# sourceMappingURL=app.css.map */

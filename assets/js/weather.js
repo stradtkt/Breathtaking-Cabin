@@ -14,7 +14,7 @@ $(document).ready(function() {
       $("#weather").html(html);
       $('div.seven-day-forecast').css("display", "none");
       $('.day-btn').click(function(e, i, forecast) {
-        for(var i=0;i<weather.forecast.length && i <=4;i++) {
+        for(var i=0;i<weather.forecast.length && i <=6;i++) {
         e.preventDefault();
         sevenHTML = '<div class="seven-day-forecast">';
         sevenHTML += '<img class="forecast-img" src="'+weather.forecast[i].image+'">';
@@ -30,5 +30,4 @@ $(document).ready(function() {
       $("#weather").html('<p>'+error+'</p>');
     }
   });
-
 });
