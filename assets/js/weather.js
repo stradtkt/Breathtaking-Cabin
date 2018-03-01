@@ -17,10 +17,17 @@ $(document).ready(function() {
         for(var i=0;i<weather.forecast.length && i <=6;i++) {
         e.preventDefault();
         sevenHTML = '<div class="seven-day-forecast">';
-        sevenHTML += '<img class="forecast-img" src="'+weather.forecast[i].image+'">';
-        sevenHTML += '<span class="forecast-date">'+weather.forecast[i].date+'</span><br>';
-        sevenHTML += '<span class="forecast-high">High: '+ weather.forecast[i].high+'</span><br>';
-        sevenHTML += '<span class="forecast-low">Low: '+weather.forecast[i].low+ '</span>';
+        sevenHTML += '<div class="row">';
+        sevenHTML += '<div class="col-sm-4">';
+        sevenHTML += '<span class="forecast-date">'+weather.forecast[i].date+'</span>';
+        sevenHTML += '</div>';
+        sevenHTML += '<div class="col-sm-4">';
+        sevenHTML += '<span class="forecast-high"><i class="fal fa-thermometer-three-quarters"></i>: '+ weather.forecast[i].high+'</span>';
+        sevenHTML += '</div>';
+        sevenHTML += '<div class="col-sm-4">';
+        sevenHTML += '<span class="forecast-low"><i class="fal fa-thermometer-empty"></i>: '+weather.forecast[i].low+ '</span>';
+        sevenHTML += '</div>';
+        sevenHTML += '</div>';
         sevenHTML += '</div>';
         $('#seven-day').append(sevenHTML);
         }

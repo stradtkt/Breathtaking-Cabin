@@ -58,7 +58,7 @@ body
     background: dodgerblue
 .nav-list
     background: rgba(0,0,0,0.5)
-    width: 100px
+    width: 130px
     display: block
     +border-radius(4px)
 .nav-list li a
@@ -83,25 +83,31 @@ body
 .weather
     +box-shadow(1px 1px 10px 1px #222)
     +border-radius(4px)
-    +background(linear-gradient(125deg, rgba(100,100,200,1), rgba(100,200,100,1)))
+    +background(linear-gradient(125deg,rgba(100,100,200,1),rgba(100,200,100,1)))
     width: 100%
     padding: 5%
     margin: 10% 0
     height: 100%
 #seven-day
-    height: 90%
+    height: 85%
 .seven-day-forecast span
     text-align: center !important
     color: white
     position: relative
     left: 20%
     bottom: 55px !important
-.seven-day-forecast img
-    text-align: center
-    z-index: 99
-    display: block
+    font-size: 19px
+.seven-day-forecast
     position: relative
-    left: 30%
+    top: 50px
+    padding: 20px 0 0 0
+
+.fa-thermometer-three-quarters
+    color: red
+    font-size: 30px
+.fa-thermometer-empty
+    color: dodgerblue
+    font-size: 30px
 .weather-city
     padding: 0 5px
     text-align: center
@@ -131,6 +137,20 @@ a.day-btn
     margin: 0 auto
     height: 60px
     width: 60px
+
+
+#sevierville-video, 
+#pf-video
+    position: relative
+    display: inline
+    clear: both
+#sevierville-video
+    float: left
+    padding: 20px 0 0 60px
+#pf-video
+    float: right
+    padding: 20px 60px 0 0
+
 
 /*About Page*/
 #calendar-header-section,
@@ -170,6 +190,9 @@ a.day-btn
     +border-radius(4px)
     +box-shadow(1px 1px 10px 1px #222)
     border: 0.7px solid #222
+
+
+
 
 
 /*Contact Page*/
@@ -233,3 +256,31 @@ textarea
 /*Calendar Page*/
 #breath-calendar
     margin: 5% 0
+
+.amenities > ul
+    height: 100%
+    list-style-type: none !important
+    font-size: 18px
+    font-weight: bold
+.amenities h1 
+    padding: 0 0 0 10%
+    color: white
+    +text-shadow(1px 1px 5px rgba(100,100,200,0.6))
+.amenities > ul li 
+    line-height: 1.5em
+    color: #e1e1e1
+    opacity: 0.9
+    &:hover 
+        color: white
+        font-size: 20px
+        +text-shadow(1px 1px 4px dodgerblue)
+.amenities
+    +border-radius(4px)
+    +background(linear-gradient(125deg,rgba(100,100,200,1),rgba(200,200,200,1)))
+    +box-shadow(2px 2px 7px 2px #222)
+    height: 100%
+    margin: 10% 0 0 0
+    padding: 10px 0 0 0
+
+#footer-section 
+    padding: 100px 0 0 0

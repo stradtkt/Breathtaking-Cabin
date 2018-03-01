@@ -116,5 +116,14 @@
               <div id="seven-day"></div>
             </div>
         </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-6">
+          <iframe width="860" id="sevierville-video" height="515" src="https://www.youtube.com/embed/TuvqHL47KrM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-6 col-sm-6 col-6">
+            <iframe width="860" id="pf-video" height="515" src="https://www.youtube.com/embed/A1afYPh_FVI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          </div>
+        </div>
     </div>
 </section>
