@@ -1,6 +1,6 @@
 # Breathtaking Cabin | Sevierville TN
 
-This is a website made for the owners of Breathtaking Cabin.  In the upcomming future it will be used as the main booking site for the cabin.  Right now it is to show people that it is a beautiful cabin.
+This is a website made for the owners of Breathtaking Cabin.  In the upcoming future it will be used as the main booking site for the cabin.  Right now it is to show people that it is a beautiful cabin.
 
 ## Installing
 ```
